@@ -1,8 +1,6 @@
 import pygame
 import sys
 
-#PATH -- C:\Users\ishaa\OneDrive\Desktop\VirtualPal\VPal.py
-
 pygame.init()
 
 HEIGHT = 600
