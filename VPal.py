@@ -1,6 +1,8 @@
 import pygame
 import sys
 
+#RUN THIS CODE WITH PYTHON 3.13 IF YOU GET A WHEEL ERROR IN PYTHON 3.14
+
 pygame.init()
 
 HEIGHT = 600
@@ -35,6 +37,8 @@ while running:
 
     draw_bar("Hunger", 600, 100, 200, 30, 0.3, (222, 152, 53))
     draw_bar("Happy",  600, 220, 200, 30, 0.8, (230, 36, 18))
+    draw_bar("Energy", 600, 340, 200, 30, 0.6, (11, 222, 187))
+
 
     pygame.display.flip()
     clock.tick(60)
