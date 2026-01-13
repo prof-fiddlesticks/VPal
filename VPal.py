@@ -26,7 +26,7 @@ while running:
         pygame.draw.rect(screen, (143, 150, 143), bg)
 
         fill_width = int(width * percent)
-        fill = pygame.Rect(x, y, width, height)
+        fill = pygame.Rect(x, y, fill_width, height)
         pygame.draw.rect(screen, (fill_color), fill)
 
         text = font.render(label, True, (255, 255, 255))
